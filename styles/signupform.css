@@ -1,0 +1,58 @@
+ input{
+  margin-top:10px;
+  margin-bottom: 0px;
+  border-radius: 8px;
+  border-width:1px;
+  border-style: solid;
+  font-size: 15px;
+  font-family: arial;
+  padding-left:14px;
+  padding-right: 14px;
+  padding-top:12px;
+  padding-bottom: 12px;
+  border-color:rgb(193, 193, 193);
+
+ }
+
+ .lastname,
+ .firstname{
+  display: inline-block;
+  width:100px;
+
+ }
+
+ .email{
+
+  display: block;
+  width:240px;
+ 
+
+ }
+ 
+ .button{
+  margin-top: 10px;
+  margin-bottom:0px;
+  display: block;
+  width:275px;
+  font-size: 16px;
+  font-weight:bold;
+  padding-top:12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: rgb(40, 140, 240);
+  
+ }
+
+ .button:hover{
+  background-color: black;
+  cursor:pointer;
+
+ }
+ .button:active{
+  background-color: red;
+  color:black;
+  margin-left:10px;
+  
+ }
